@@ -1,0 +1,40 @@
+{
+  "name": "aws-cloudfront-sign",
+  "version": "2.0.1",
+  "description": "Utility module for signing AWS CloudFront URLs",
+  "author": {
+    "name": "Jason Sims",
+    "email": "sims.jrobert@gmail.com"
+  },
+  "contributors": [
+   
+  ],
+  "main": "./lib/cloudfrontUtil.js",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushkeryadav/aws-cloudfront-sign-cookies.git"
+  },
+  "keywords": [
+    "aws",
+    "CloudFront",
+    "signed URL"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushkeryadav/aws-cloudfront-sign-cookies/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1",
+    "moment": "^2.9.0",
+    "sinon": "^1.14.1"
+  },
+  "homepage": "https://github.com/pushkeryadav/aws-cloudfront-sign-cookies",
+  "_id": "aws-cloudfront-sign-cookies@1.0.0",
+  
+  
+}
