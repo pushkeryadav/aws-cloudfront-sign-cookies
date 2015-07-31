@@ -1,7 +1,5 @@
 AWS CloudFront URL Signature Utility (Signed Cookies)  
 ===================
-[![Build Status](https://travis-ci.org/jasonsims/aws-cloudfront-sign.svg?branch=master)](https://travis-ci.org/jasonsims/aws-cloudfront-sign)
-[![npm version](https://badge.fury.io/js/aws-cloudfront-sign.svg)](http://badge.fury.io/js/aws-cloudfront-sign)
 
 
 Generating signed cookies for CloudFront links is a little more tricky than for S3. It's because signature generation for S3 URLs is handled a bit differently than CloudFront URLs and this functionality is not currently supported by the [aws-sdk](https://github.com/aws/aws-sdk-js) library for JavaScript. In case you also need to do this, I've created this simple utility to make things easier. Inspired by https://github.com/jasonsims/aws-cloudfront-sign
